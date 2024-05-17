@@ -34,3 +34,21 @@ body {
 h1 {
     margin-bottom: 1rem;
 }
+
+.display {
+    font-size: 1.0625rem;
+    margin-bottom: 1rem;
+}
+
+/* ---- container section  ---- */
+
+.square {
+    cursor: pointer;
+    
+    display: inline-block;
+
+    width: 6.25rem;
+    height: 6.25rem;
+
+    border: 1px solid white;
+}
