@@ -52,3 +52,31 @@ h1 {
 
     border: 1px solid white;
 }
+
+.o {
+    position: relative;
+}
+
+.o::after {
+    position: absolute;
+    inset: 0;
+
+    content: '\2B55';
+
+    font-size: 3.125rem;
+    line-height: 6.25rem;
+}
+
+.x {
+    position: relative;
+}
+
+.x::after {
+    position: absolute;
+    inset: 0;
+
+    content: '\274C';
+
+    font-size: 3.125rem;
+    line-height: 6.25rem;
+}
