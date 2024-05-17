@@ -80,3 +80,26 @@ h1 {
     font-size: 3.125rem;
     line-height: 6.25rem;
 }
+
+/* ---- button section  ---- */
+
+button {
+    background: #CB2027;
+    color: white;
+
+    margin-top: 1rem;
+
+    padding: 6px 16px;
+
+    text-decoration: none;
+    cursor: pointer;
+
+    border: 1px solid rgba(27, 31, 35, .15);
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+}
+
+button:hover {
+    transition: 0.4s;
+    opacity: .8;
+}
